@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emma Jamiesons fidget page</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Fidget page</h1>
+    <h2>Color changer</h2>
+    <!--colour picker-->
+    <button onclick="changecolor()">Background colour:</button>
+    <input id="colorpicker" type="color" value="#0000ff">
+
+    <h2>Switches</h2>
+    <!-- Rectangular switch -->
+<label class="switch">
+    <input type="checkbox">
+    <span class="slider"></span>
+  </label>
+  
+  <!-- Rounded switch -->
+  <label class="switch">
+    <input type="checkbox">
+    <span class="slider round"></span>
+  </label>
+
+  <!-- fade text-->
+  <section class="fade">
+    <blockquote class="overlay">
+    This will fade away! Hover over me and see!!!!!
+    </blockquote>
+  </section>
+
+  <!--ripple button-->
+  <button class="button button_ripple" type="button">ripple</button>
+    
+<script src="script.js"> </script>
+</body>
+</html>
